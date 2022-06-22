@@ -10,9 +10,9 @@ During the pandemic, ~50 speaker dyads engaged in ~20-minute long conversations 
 ## Method
 We aimed to answer our main research question algorithmically and computationally by adopting a convergent three-pronged approach to analyzing this pilot dataset:
 
-1. NLP 📝
-2. Computer Vision 👁️‍🗨️ 
-3. Audio Signal Processing 🔉
+1. [NLP](#nlp-using-natural-language-processing-to-analyze-the-semantic-differences-catalyzed-by-empathy) 📝
+2. [Computer Vision](#computer-vision-using-facial-detection-software-to-identify-the-visual-effects-of-empathy-on-self-presentation) 👁️‍🗨️ 
+3. [Audio Signal Processing](#audio-signal-processing-assessing-the-effect-of-empathy-on-the–acoustic-profile-of–conversations) 🔉
 
 A host of interrelated methods were implemented in Python and R to analyze the transcribed speech:
 
@@ -32,6 +32,6 @@ A host of interrelated methods were implemented in Python and R to analyze the t
 * ...visually mirror each other's body language *affectively*?
   * Facial emotion detection (`cv2`, Microsoft Azure Face Detect API)
 
-### Audio signal processing: Assesing the effect of empathy on the acoustic profile of conversations
+### Audio signal processing: Assessing the effect of empathy on the acoustic profile of conversations
 > *Does priming empathy cause speakers to...*
 * ...acoustically mirror each other's pitch and volumne more strongly? (`pydub`, `scipy`)
